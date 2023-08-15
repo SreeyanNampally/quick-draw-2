@@ -1,0 +1,40 @@
+h1{
+    width: 100%;
+    background-color: rgb(0, 101, 40);
+    margin: 0;
+    height: 110px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(155, 255, 188);
+}
+#button{
+    float:right;
+}
+
+canvas{
+    border: 5px double red;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 5px 5px 5px black;}
+    to{box-shadow: 5px 5px 5px blue;}
+}
+
+#score{
+    float: left;
+    margin: 20px;
+}
+
+#timer{
+    float: right;
+    margin: 20px;
+}
